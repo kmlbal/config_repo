@@ -1,2 +1,6 @@
-hello:
- message: "spring"
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

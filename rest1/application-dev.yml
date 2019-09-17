@@ -1,2 +1,7 @@
-hello:
- message: "spring-dev"
+
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
